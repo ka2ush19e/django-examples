@@ -1,0 +1,7 @@
+{% load staticfiles compress %}
+
+{% compress js %}
+  <script src="{% static 'components/jquery/dist/jquery.js' %}"></script>
+  <script src="{% static 'components/bootstrap/dist/js/bootstrap.js' %}"></script>
+  <script src="{% static 'js/django_examples.js' %}"></script>
+{% endcompress %}

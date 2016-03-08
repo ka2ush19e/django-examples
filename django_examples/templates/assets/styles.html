@@ -1,0 +1,6 @@
+{% load staticfiles compress %}
+
+{% compress css %}
+  <link rel="stylesheet" href="{% static 'components/bootstrap/dist/css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/django_examples.css' %}">
+{% endcompress %}
